@@ -13,7 +13,7 @@ cd GEN_labo1
 # master1
 touch master1
 git add .
-git commit -am "master1"
+git commit -m "master1"
 git push
 
 # création de la branch essai
@@ -23,26 +23,26 @@ git checkout essai
 # essai1
 touch essai1
 git add .
-git commit -am "essai1"
+git commit -m "essai1"
 git push --set-upstream origin essai
 
 # essai2
 touch essai2
 git add .
-git commit -am "essai2"
+git commit -m "essai2"
 git push
 
 # essai3
 touch essai3
 git add .
-git commit -am "essai3"
+git commit -m "essai3"
 git push
 
 # master2
 git checkout master
 touch master2
 git add .
-git commit -am "master2"
+git commit -m "master2"
 git push
 
 # merge essai2 -> master
@@ -55,7 +55,7 @@ git push
 git checkout essai
 touch essai4
 git add .
-git commit -am "essai4"
+git commit -m "essai4"
 git push
 
 # branch à supprimer plus tard
@@ -64,7 +64,7 @@ git branch deleted
 git checkout deleted
 touch deleted1
 git add .
-git commit -am "deleted1"
+git commit -m "deleted1"
 git push --set-upstream origin deleted
 
 # merge essai -> master
@@ -80,7 +80,7 @@ git checkout dev
 # dev1
 touch dev1
 git add .
-git commit -am "dev1"
+git commit -m "dev1"
 git push --set-upstream origin dev
 
 # création de la branch essai3
@@ -90,7 +90,7 @@ git checkout essai3
 # essai31
 touch essai31
 git add .
-git commit -am "essai31"
+git commit -m "essai31"
 git push --set-upstream origin essai3
 
 # suppression de la branch deleted
